@@ -1,0 +1,131 @@
+form input[type="submit"],
+.listgo__rating .rating__number,
+.listing__cat,
+.btn-primary,
+.pi_subscribe .pi-subscribe,
+.listing--box .listing__title,
+.nav-links .current,
+.nav-links a:hover,
+.widget_author__link a,
+.tab .tab__nav li.active a,
+.listing-single-wrap7 .listing-single__tab .tab__nav li.active a,
+.listing-single-wrap7 .listing-single__tab .tab__nav li a:hover,
+.listgo-map__field .listgo-map__apply,
+.header-page__breadcrumb .header-page__breadcrumb-filter,
+.wil-scroll-top, .from-wide-listing__footer,
+.wil-dashbroad__bar-add-listing,
+.wil-dashbroad__notification .notifications__more a,
+.addlisting-popup__actions #listgo-next-to-payment-method,
+.comments__header-create,
+.nav-filter a.active,
+.addlisting-popup__nav a.active, .addlisting-popup__nav a.active:hover, .addlisting-popup__plus:hover, .addlisting-popup__actions .wiloke-insert-shortcode {
+  color:  #fff;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, a:hover, .color-primary, .wil_accordion--1 .wil_accordion__header.active, .tab.tab--1 .tab__nav li.active a, .tab--2 .tab__nav li.active a, .mfp-wrap .mfp-arrow:hover, .mfp-wrap .mfp-figure figure .mfp-counter, .listgo-btn.btn-primary:focus, .listgo-btn.btn-primary:active, .listgo-btn:hover, .comment-form label sup, .comment-form .comment__rate, .tab--form .tab__nav li.active a, .label--dropdown .dropdown span.active, .label--dropdown .dropdown span:hover, .list-mode label input:checked ~ i, .ui-widget.ui-autocomplete .ui-menu-item:hover .ui-menu-item-wrapper, .nav-middle .owl-next:hover, .nav-middle .owl-prev:hover, .nav-bottom .owl-next:hover, .nav-bottom .owl-prev:hover, .heading-title__subtitle, .heading-title--dark .heading-title__title, .listing__author-result a, .listing__result-right span ins, .listing__result-right a:hover, .listing__cat a:hover, .listing__cat-more, .listgo__rating .rating__star, .item__actions a.active, .item__actions a:hover, .listing--grid1 .item__actions .tb .tb__cell:last-child a, .listing--grid2 .item__actions .listing__author a:hover h6, .listing--list1 .item__actions .tb .tb__cell:last-child a, .listing--box .listing__cat a:hover, .listing--box .item__actions a, .listing-single__review .rating__star, .listing-single__actions li .js_favorite.active i:before, .listing-single-hero .listing-single__actions li.action__like.active, .listing_related-item:hover .listing_related-item__title, .review-rating .review-rating__label, .listing-single-bar .tab__nav li.active, .event-item__meta > span > i, .post__meta .post__date:before, .post__meta > span i, .post__more:hover, .header-page__account .account-subscribe .count, .account-nav ul li.active > a, .account-nav .account-nav__toggle:hover, .wo_breadcrumb li span, .comment__edit-reply a.active, .input-upload-file:hover, #tab-review .commentlist .comment__by, .role--user, .pricing__price, .pricing__remain_post, .wil-remaining, .iconbox__icon, .listgo-map a:hover, .listgo-map__result li .actions a:hover, .notifications__list .notifications__date i, .notifications__list .notifications__remove:hover, .notifications__more a, .woocommerce-cart-mini i, .woocommerce .product-item .product__media .product_type_grouped:hover, .woocommerce .product-item .product__media .add_to_cart_button:hover, .woocommerce .star-rating, .woocommerce div.product .woocommerce-product-rating .star-rating, .woocommerce div.product .product_meta > span a:hover, .woocommerce #review_form #respond .stars, .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a, .wil-team__item-view, .wil-menus .wil-menus__price, .wil-card-total-icon, .wil-card-total-number span, .add-listing__style-item:hover .add-listing__style-label, .add-listing__upload-placeholder i, .wil-addlisting-gallery__list .wil-addlisting-gallery__placeholder button, .sidebar-background .widget_title i, .footer__widget .widget_title, .footer__widget .widget a:hover, .wiloke_price_segment .active, .wiloke_price-range span, .pi_subscribe .message.alert-error, .widget_listings ul .rating__star, .wiloke-simple-posts-slider .owl-nav > div:hover i,
+.twitter-slider .owl-nav > div:hover i, .widget_author .account-subscribe .listgo-btn, .widget_author__link a:hover, [class*="sidebar-background"] .widget_services .widget_title, .widget_services .widget_services__title i, .widgetmap p a, .widget_recent_entries li a:hover,
+.widget_recent_comments li a:hover,
+.comment-form .comment__rate-placeholder,
+#wiloke-popup-signup-form .form-item.desc a,
+.listing-single__claim-title,
+.header__content .wil-menu-list > li.current-menu-ancestor > a,
+.widget_rss li a:hover, .widget_calendar table a, .woocommerce .widget_products li .product-title:hover,
+.woocommerce .widget_top_rated_products li .product-title:hover,
+.woocommerce .widget_recent_reviews li .product-title:hover,
+.woocommerce .product_list_widget li .product-title:hover, .woocommerce .widget_shopping_cart .cart_list .mini_cart_item a:hover, .woocommerce .widget_recent_reviews .product_list_widget li a:hover, .user__header__info span, .header__toggle-icon:hover, .header-mobile .wil-menu-list li.current-menu-item > a, .header-mobile .wil-menu-list li.current-menu-parent > a, .wiloke-menu-sub-mega .widget_nav_menu .widgettitle, .wiloke-menu-sub-mega .widget_nav_menu ul li.current_page_item > a, .wiloke-menu-sub-mega .wiloke-menu-term .wiloke-menu-term__title:hover, .wiloke-menu-sub-mega .wiloke-shortcode-list a:hover,
+#wiloke-loadmore-notifications, .f-listings-item__meta-top .status.status-processing, .f-listings-item__meta-top .status.status-pending, .f-listings-item__meta-top .status.status-temporary_closed,
+.add-listing__upload-single .add-listing__upload-preview[style*="background-image"]:hover .add-listing__upload-placeholder-title, .wiloke-menu-sub-mega .widget_nav_menu .widgettitle, .listgo-btn.btn-primary:hover,
+.listing-single__tab .tab__nav li.active a, .comment-form .comment__rate-placeholder, 
+.listing--grid3 .listing__content .address .address-location:before,
+.listing--grid3 .listing__content .address .address-website:before,
+.listing--grid3 .listing__content .address .address-phone_number:before,
+.listing--grid4 .listing__content .address .address-location:before,
+.listing--grid4 .listing__content .address .address-website:before,
+.listing--grid4 .listing__content .address .address-phone_number:before,
+.listing--grid4 .listing__author a:hover h6, .listing--grid4 .listing__cat a:hover,
+.listing--grid3 .listing__cat a:hover,
+.listgo-map__result li p i, .event-item__meta i, .iconbox-style2:hover .iconbox__title, .listgo-register-header h4,
+.wiloke_price-range .wiloke_price-range__price,
+.widget_author .account-subscribe span.followers:hover a .count, .widget_author .account-subscribe span.followers:hover a, .widget_author .account-subscribe span.following:hover a .count, .widget_author .account-subscribe span.following:hover a,
+.single-listing .media-router a.active, .page-template-addlisting .media-router a.active, .add-listing__upload-single .add-listing__upload-preview[style*="background-image"] .add-listing__upload-placeholder .add-listing__upload-placeholder-title,
+.addlisting-popup__header, .addlisting-popup__nav a:hover, .addlisting-popup__plus, .single-listing .media-menu > a.active, .page-template-addlisting .media-menu > a.active, .single-listing .media-frame-title h1, .page-template-addlisting .media-frame-title h1,
+.wil-dashbroad__bar-menu ul li:hover > a, .header-page__categories-s1 .header-page__category-title,  .header-page--high.header-page-form-not_center_3 .header-page__scrolldown:hover, .header-page__categories-s2 a:hover .header-page__category-title, #ui-id-2.ui-widget.ui-autocomplete .ui-menu-item .ui-menu-item-wrapper:before,
+.sidebar-background--light .widget_title i {
+  color: #f5af02; }
+#wrap-page .fc-event-clicked,
+#wrap-page .fc-event:hover,
+.promotion__box:hover .utility__title,
+.header__add-listing a:hover, 
+.header__content .wil-menu-list li:hover > a, .header__content .wil-menu-list > li.current-menu-item > a, .header__content .wil-menu-list > li.current-menu-parent > a, .header__content .wil-menu-list .sub-menu li:hover > a, .header__content .wil-menu-list .sub-menu li.current-menu-item > a, .header__content .wil-menu-list .sub-menu li.current-menu-parent > a, .header__content .wiloke-menu:not(.wiloke-menu-responsive) .wiloke-menu-list .wiloke-menu-item:hover > a, .header__content .wiloke-menu:not(.wiloke-menu-responsive) .wiloke-menu-list .wiloke-menu-item.current-menu-item > a, .header__content .wiloke-menu:not(.wiloke-menu-responsive) .wiloke-menu-list .wiloke-menu-item.current-menu-parent > a {
+  color: #f5af02 !important;
+}
+
+.wil_accordion--1 .wil_accordion__header:hover a:before, .wil_accordion--1 .wil_accordion__header.active a:before, .input-checkbox input:checked ~ span, .input-radio input:checked ~ span, .checkbox-btn input:checked + .checkbox-btn-span, .post__more:hover, .input-upload-file:hover, .wil-team__preview hr,
+#ui-datepicker-div.wo_datepicker .ui-datepicker-calendar td .ui-state-active,
+.vc_row[data-vc-full-width="true"].wiloke-row-handling:before, .listing-single-wrap7 .listing-single__tab .tab__nav li.active a, .listing-single-wrap7 .listing-single__tab .tab__nav li a:hover, .header-page__categories-s5 a:hover .header-page__category-icon:before,
+.single-listing .media-frame input[type=text]:focus, .single-listing .media-frame input[type=password]:focus, .single-listing .media-frame input[type=number]:focus, .single-listing .media-frame input[type=search]:focus, .single-listing .media-frame input[type=email]:focus, .single-listing .media-frame input[type=url]:focus, .single-listing .media-frame select:focus, .single-listing .media-frame textarea:focus, .page-template-addlisting .media-frame input[type=text]:focus, .page-template-addlisting .media-frame input[type=password]:focus, .page-template-addlisting .media-frame input[type=number]:focus, .page-template-addlisting .media-frame input[type=search]:focus, .page-template-addlisting .media-frame input[type=email]:focus, .page-template-addlisting .media-frame input[type=url]:focus, .page-template-addlisting .media-frame select:focus, .page-template-addlisting .media-frame textarea:focus,
+.addlisting-popup__nav a.active, .addlisting-popup__nav a:hover, .addlisting-popup__actions .wiloke-insert-shortcode,
+.addlisting-popup__actions #listgo-next-to-payment-method, .header-page__categories-s5 a:hover:before, .header-page__categories-s1 a:hover:before, .header-page--high.header-page-form-not_center_3 .header-page__scrolldown:hover {
+  border-color: #f5af02; }
+
+.about__textblock:after,
+html[dir="rtl"] .wpb_widgetised_column .widget_title,
+html[dir="rtl"] .sidebar .widget_title {
+  border-right-color: #f5af02; }
+#wrap-page .fc-event-clicked,
+#wrap-page .fc-event:hover,
+.wp-caption .wp-caption-text, blockquote, .sidebar .widget_title, .wpb_widgetised_column .widget_title, .listing-single__wrap-header6 .listing-single__title:before,
+.listgo-map__field .control-checkbox span:after {
+  border-left-color: #f5af02; }
+
+.listing-single-bar .tab__nav li.active, .about__textblock:before,
+.listing--grid4 .item__actions .tb__cell > a:after,
+.listing--grid3 .item__actions .tb__cell > a:after  {
+  border-top-color: #f5af02; }
+
+.header__content .wil-menu-list > li.current-menu-ancestor > a,
+.wil_accordion--1 .wil_accordion__header.active, .tab--2 .tab__nav li.active, .account-nav ul li.active > a, .woocommerce div.product .woocommerce-tabs ul.wc-tabs li.active, .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a, .header__content .wil-menu-list > li.current-menu-item > a, .header__content .wil-menu-list > li.current-menu-parent > a, .listgo-map__field .control-checkbox span:after, .about__textblock:after {
+  border-bottom-color: #f5af02; }
+#wrap-page .bookingjs-form-button,
+code, kbd, .wil-buy-now a, .wil_accordion--1 .wil_accordion__header.active a:before, .listgo-btn.btn-primary, form input[type="submit"], #ui-datepicker-div.wo_datepicker .ui-datepicker-calendar td .ui-state-active, .input-select2 .select2-container .select2-selection--multiple .select2-selection__choice, .input-checkbox span:before, .input-radio span:before, .input-toggle input:checked ~ span, .input-slider.ui-slider .ui-slider-handle, .checkbox-btn input:checked + .checkbox-btn-span, .from-wide-listing__footer, .nav-filter .active, .listing__result-right a, .onads, .onclose, .onopen, .closesin, .onopensin, .nextopen, .listing__cat a, .listgo__rating .rating__number, .listing--box .listing__title, .listing-single .listing-single__actions .action__like.active > a, .event-item__title:after, .f-listings-item__meta > span .second-loading, .wil-addlisting-gallery__placeholder button:hover, .nav-links a:hover, .nav-links .current, .pagination_post a:hover, .comments__header-create, .comments__showmore:hover, .pricing__title:after, .listgo-map a.leaflet-popup-close-button:hover:before, .listgo-map a.leaflet-popup-close-button:hover:after, .listgo-map__field .control-radio span:after, .leaflet-div-icon, .notifications__more a:hover, .woocommerce a.button.alt, .woocommerce input#submit.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce .button.alt, .woocommerce span.onsale, .woocommerce #review_form #respond .form-submit input#submit, .woocommerce table.shop_table td.actions > .button, .woocommerce .cart-collaterals .cart_totals .button, .wil-team__preview-social a:hover, .pi_subscribe .pi-subscribe, .widget_author__link a, .aboutwidget__divider, .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .header__content .wiloke-menu-bar:hover .wiloke-menu-bar__line > span,
+.nav-filter-dashbroad a[data-status="pending"].active, .nav-filter-dashbroad a[data-status="pending"]:hover
+.listing-single-wrap7 .listing-single__tab .tab__nav li.active a, .listing-single-wrap7 .listing-single__tab .tab__nav li a:hover,
+.listing--grid4 .item__actions a:before,
+.listing--grid3 .item__actions a:before, .listgo-map__field .listgo-map__apply,
+.footer-style2 .footer__widget .widget_title:before, .header-page__breadcrumb .header-page__breadcrumb-filter, 
+.listings-grid3 .nav-links .page-numbers.current, .listings-grid4 .nav-links .page-numbers.current,
+.listings-grid3 .nav-links .page-numbers:hover, .listings-grid4 .nav-links .page-numbers:hover, .listing--grid3 .item__actions .tb__cell > a:before, .listing--grid4 .item__actions .tb__cell > a:before,
+.addlisting-popup__nav a.active, .addlisting-popup__plus:hover, .addlisting-popup__actions .wiloke-insert-shortcode, .wil-dashbroad__bar-add-listing, .wil-dashbroad__notification .notifications__more a,
+.listing-single-wrap7 .listing-single__tab .tab__nav li.active a {
+  background-color: #f5af02; }
+
+.input-upload-file:hover svg{
+  fill: #f5af02;
+}
+
+.listing--grid3 .item__actions .tb__cell > a:before, 
+.listing--grid4 .item__actions .tb__cell > a:before {
+  box-shadow: 0 4px 8px rgba(245, 175, 2, .4); 
+}
+
+.listing--grid3:hover .listgo__rating .rating__number {
+  box-shadow: 0px 4px 8px 0px rgba(245, 175, 2, 0.4);
+}
+.footer-style2 .footer__widget .widget_title:before {
+  box-shadow: -2px 2px 0px #f5af02, -2px -2px 0px #f5af02;
+}
+
+.listings-grid3 .nav-links .page-numbers.current, .listings-grid3 .nav-links .page-numbers:hover, 
+.listings-grid4 .nav-links .page-numbers.current, .listings-grid4 .nav-links .page-numbers:hover {
+  box-shadow: 0px 4px 8px 0px rgba(245, 175, 2, 0.4);
+}
+
+/* Important */
+.page-template-addlisting .media-toolbar-primary .button, .page-template-addlisting .media-toolbar-primary .button[disabled] {
+  color:  #fff !important;
+}
+
+.page-template-addlisting .media-toolbar-primary .button, .page-template-addlisting .media-toolbar-primary .button[disabled] {
+    background-color: #f5af02 !important;
+}

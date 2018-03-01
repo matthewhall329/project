@@ -1,0 +1,27 @@
+// Padding-top
+@for $i from 0 through 20 {
+	.p-top-#{$i * 5} {
+		padding-top: $i * 5 + px;
+	}
+}
+
+// Padding-right
+@for $i from 0 through 20 {
+	.p-right-#{$i * 5} {
+		padding-right: $i * 5 + px;
+	}
+}
+
+// Padding-bottom
+@for $i from 0 through 20 {
+	.p-bottom-#{$i * 5} {
+		padding-bottom: $i * 5 + px;
+	}
+}
+
+// Padding-bottom
+@for $i from 0 through 20 {
+	.p-left-#{$i * 5} {
+		padding-left: $i * 5 + px;
+	}
+}

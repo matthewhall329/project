@@ -1,0 +1,179 @@
+.nav-links {
+	clear: both;
+	
+	a, span {
+		text-align: center;
+		margin-bottom: 7px;
+		display: inline-block;
+		vertical-align: middle;
+		transition-property: all;
+		background-color: #eeeeee;
+		font-weight: 600;
+		padding: 0 12px;
+		font-size: 14px;
+		@extend %font-title;
+		@extend %color-title;
+
+		@include pfs('min-width, line-height', (
+			768px: 35px,
+			1200px: 40px
+		));
+
+		@include pfs('margin-right', (
+			768px: 4px,
+			1200px: 7px
+		));
+	}
+
+	.page-numbers:last-child {
+		margin-right: 0;
+	}
+
+	.next, .prev {
+		padding-left: 13px;
+		padding-right: 13px;
+
+		&:before, &:after {
+			position: relative;
+			top: 1px;
+			font-family: 'ElegantIcons';
+		}
+	}
+
+	.prev:before {
+		content: '4';
+	}
+
+	.next:after {
+		content: '5';
+	}
+
+	a:hover, .current {
+		@extend %color-title;
+		@extend %bg-primary;
+	}
+}
+
+.pagination_post {
+	margin-bottom: 50px;
+	
+	.row {
+		margin-left: -5px;
+		margin-right: -5px;
+
+		> [class*="col-"] {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+
+	a {
+		text-align: center;
+		display: block;
+		background-color: #eeeeee;
+		line-height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		font-weight: 600;
+		@extend %ellipsis;
+		@extend %color-title;
+		@extend %font-title;
+
+		&:hover {
+			@extend %color-title;
+			@extend %bg-primary;
+		}
+
+		&:before, &:after {
+			top: 2px;
+			position: relative;
+			font-size: 18px;
+			font-weight: normal;
+			font-family: 'ElegantIcons';
+		}
+	}
+}
+
+.pagination_post__prev {
+
+	&:before {
+		margin-right: 2px;
+		content: '4';
+		margin-left: -5px;
+	}
+}
+
+.pagination_post__next {
+	&:after {
+		margin-left: 2px;
+		content: '5';
+		margin-right: -5px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.pagination_post a {
+		font-size: 14px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 320px)  {
+
+	.pagination_post a {
+		padding: 0 10px;
+	}
+}
+
+// Listing Template Grid 3, Grid 4
+.listings-grid3,
+.listings-grid4 {
+
+	.nav-links {
+		margin-top: 15px;
+
+		@media (min-width: 768px) {
+			margin-top: 25px;
+		}
+
+		.page-numbers {
+			margin-right: 10px;
+			border-radius: 50%;
+			background-color: rgb(255, 255, 255);
+			box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.06);
+			transition-property: all;
+
+			@media (min-width: 768px) {
+				min-width: 45px;
+				line-height: 45px;
+			}
+
+			&.current, &:hover {
+				color: #fff;
+				box-shadow: 0px 4px 8px 0px rgba($color-primary, 0.4);
+				@extend %bg-primary;
+			}
+		}
+
+		.next, .prev {
+			font-size: 0;
+			line-height: normal;
+			padding-left: 0;
+			padding-right: 0;
+			font-weight: normal;
+
+			&:after, &:before {
+				font-size: 20px;
+				line-height: 35px;
+
+				@media (min-width: 768px) {
+					font-size: 22px;
+					line-height: 45px;
+					top: 0;
+				}
+			}
+		}
+	}
+}
+

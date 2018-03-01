@@ -1,0 +1,36 @@
+.widget_recent_entries,
+.widget_recent_comments,
+.widget_rss {
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		padding: 10px 0;
+		list-style: none;
+		border-bottom: 1px solid #e9ecef;
+
+		span {
+			margin-left: 5px;
+			color: #9a9b9c;
+		}
+
+		a {
+			font-weight: 700;
+			@extend %color-title;
+			@extend %font-title;
+
+			&:hover {
+				@extend %color-primary;
+			}
+		}
+
+		.post-date,
+		.rss-date {
+			display: block;
+			font-style: italic;
+		}
+	}
+}

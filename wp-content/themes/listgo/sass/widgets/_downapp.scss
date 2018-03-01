@@ -1,0 +1,14 @@
+.widget-downapp__body {
+	padding-top: 20px;
+	a {
+		display: block;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+#footer .widget-downapp__body,
+.widget_title ~ .widget-downapp__body {
+	padding-top: 0;
+}

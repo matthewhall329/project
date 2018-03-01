@@ -1,0 +1,45 @@
+.wiloke-simple-posts-slider,
+.twitter-slider {
+
+	.owl-nav {
+		display: inline-block;
+		margin-left: -5px;
+		margin-top: 25px;
+
+		> div {
+			display: inline-block;
+			font-size: 22px;
+
+			i {
+				@extend %transition-all-03s-ease;
+			}
+
+			&:hover i {
+				@extend %color-primary;
+			}
+		}
+
+		.owl-prev:after {
+			content: '';
+			border-left: 2px solid;
+			height: 17px;
+			display: inline-block;
+		    vertical-align: top;
+   		 	margin: 4px 7px 0 7px;
+   		 	color: #b3b3b5;
+		}
+	}
+}
+
+.twitter-slider {
+	p {
+		font-size:: 16px;
+		color: #b3b3b5;
+		font-style: italic;
+		margin-bottom: 0;
+
+		a {
+			@extend %color-white;
+		}
+	}
+}

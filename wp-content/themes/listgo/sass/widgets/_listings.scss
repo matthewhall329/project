@@ -1,0 +1,129 @@
+.widget_listings {
+	ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+			list-style: none;
+			overflow: hidden;
+			border-bottom: 1px solid $color-gray-3;
+			padding: 10px 0;
+
+			&:first-child {
+				padding-top: 0;
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		img, img.lazy[data-src] {
+			float: left;
+			width: 70px;
+			margin-right: 18px;
+		}
+
+		.cat {
+			color: #9a9b9c;
+		}
+
+		h4 {
+			font-size: 16px;
+			margin-top: 3px;
+			margin-bottom: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			transition: all 0.3s ease;
+			&:hover {
+				opacity: 0.6;
+			}
+		}
+
+		.rating__star {
+			font-size: 14px;
+			@extend %color-primary;
+		}
+	}
+}
+
+.widget_termslisting {
+
+	h4 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+#footer .widget_listings ul h4 {
+	color: #afafaf;
+}
+#footer .widget_listings ul h4:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+// timekit
+#wrap-page .bookingjs {
+	box-shadow: none;
+	border-radius: 0;
+	border: 1px solid #ececec;
+}
+
+#wrap-page .fc-unthemed .fc-basic-view .fc-scroller {
+	padding: 20px 15px;
+}
+
+#wrap-page .fc-event {
+	border-radius: 0;
+	font-size: 16px;
+}
+
+#wrap-page .fc-event-clicked,
+#wrap-page .fc-event:hover {
+	border-left: 3px solid $color-primary;
+	color: $color-primary;
+}
+#wrap-page .bookingjs-form-field--dirty .bookingjs-form-label {
+	color: $color-primary;
+}
+#wrap-page .bookingjs-form-input,
+#wrap-page .bookingjs-form input,
+#wrap-page .bookingjs-form input:invalid textarea,
+#wrap-page .bookingjs-form textarea:invalid {
+	border: 1px solid #b4b4b4;
+	box-shadow: none;
+	margin-bottom: 10px;
+	color: #777;
+}
+
+#wrap-page .bookingjs-form-field--dirty .bookingjs-form-label {
+	top: 17px;
+	left: 17px;
+}
+
+#wrap-page .bookingjs-form-field--dirty .bookingjs-form-input {
+	padding: 25px 15px 5px;
+}
+
+#wrap-page .bookingjs-form-button {
+	box-shadow: none;
+	border-radius: 0;
+    line-height: 44px;
+    padding: 0 30px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 0;
+    border-width: 0;
+    min-width: 150px;
+    text-transform: capitalize;
+    background-color: $color-primary;
+    color: $color-title;
+}
+
+#wrap-page .bookingjs-form-box {
+	box-shadow: none;
+}

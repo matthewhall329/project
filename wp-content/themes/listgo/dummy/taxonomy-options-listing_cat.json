@@ -1,0 +1,140 @@
+{
+    "data": {
+    	"garden-tools": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/gadern_tools.png"
+        },
+        "furniture-home": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/furniture_home.png"
+        },
+        "fashion": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/fashion.png"
+        },
+        "shopping": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/shopping.png"
+        },
+        "winery": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017/09\/winery.png"
+        },
+        "lunch": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/lunch.png"
+        },
+        "coffee": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017/09\/cafe.png"
+        },
+        "club-bar": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/bar.png"
+        },
+        "conference": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/conference.png"
+        },
+        "movie-theater": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/moive.png"
+        },
+        "spa-salon": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/spa_salon.png"
+        },
+        "skin-care": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/skin_care.png"
+        },
+        "art-design": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/art.png"
+        },
+        "beauty-health": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/beauty_health.png"
+        },
+        "breakfast": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/breakfast.png"
+        },
+        "destinations": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/destinations.png"
+        },
+        "dinner": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/dinner.png"
+        },
+        "entertainment": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/entertainment.png"
+        },
+        "events": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/events.png"
+        },
+        "festival": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/festival.png"
+        },
+        "food-drink": {
+            "featured_image": "1907",
+            "header_overlay": "rgba(0, 0, 0, 0.405)",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/food_drink.png"
+        },
+        "hotel": {
+            "featured_image": "1593",
+            "header_overlay": "rgba(0, 0, 0, 0.432)",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/hotel.png"
+        },
+        "museum": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/museum.png"
+        },
+        "music": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/music.png"
+        },
+        "restaurant": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/restaurant.png"
+        },
+        "travel-hotel": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/travel_hotel.png"
+        },
+        "yoga": {
+            "featured_image": "",
+            "header_overlay": "",
+            "map_marker_image": "http:\/\/minilistgo.wiloke.com\/wp-content\/uploads\/2017\/09\/yoga.png"
+        }
+    },
+    "taxonomy": "listing_cat"
+}

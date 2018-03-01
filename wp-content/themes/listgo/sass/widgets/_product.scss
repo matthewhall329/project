@@ -1,0 +1,148 @@
+.woocommerce  {
+
+	.widget_products,
+	.widget_top_rated_products,
+	.widget_recent_reviews,
+	.product_list_widget {
+
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			padding-top: 7px !important;
+			padding-bottom: 7px !important;
+			list-style: none;
+			position: relative;
+			border-bottom: 1px solid #e9ecef;
+
+			&:last-child {
+				border-bottom-width: 0;
+			}
+
+			.product-title {
+				margin-bottom: 2px;
+				display: block;
+				@extend %font-title;
+				@extend %color-title;
+
+				&:hover {
+					@extend %color-primary;
+				}
+			}
+
+			.star-rating {
+				margin-bottom: 5px;
+				font-size: 12px;
+			}
+
+			.reviewer {
+				font-style: italic;
+			}
+
+			img {
+				margin-top: 7px;
+			}
+		}
+	}
+
+	.sidebar-background {
+
+		.widget_products li {
+			border-bottom-color: #e2e2e2;
+		}
+	}
+
+	.widget_shopping_cart {
+
+		.cart_list {
+			margin-bottom: 10px;
+
+			.mini_cart_item {
+
+				a {
+					@extend %font-title;
+					@extend %color-title;
+
+					&:hover {
+						@extend %color-primary;
+					}
+				}
+
+				a.remove {
+					top: 10px;
+				    line-height: 25px;
+    				font-weight: normal;
+				}
+			}
+		}
+
+		.total {
+			padding-top: 10px;
+
+			strong {
+				@extend %color-title;
+				@extend %font-title;
+			}
+		}
+
+		.buttons {
+			display: flex;
+			margin-bottom: 0;
+
+			.button {
+				width: 50%;
+				height: 40px;
+				min-width: auto;
+				padding: 0 10px !important;
+				line-height: 40px;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.widget_price_filter {
+
+		.price_slider {
+			overflow: visible;
+		}
+
+	 	.price_slider_amount .button {
+	 		min-width: auto;
+	 		height: 34px;
+	 		padding: 0 20px !important;
+	 		line-height: 34px;
+	 	}
+
+	 	.ui-slider-horizontal {
+	 		height: 5px;
+	 	}
+
+	 	.ui-widget.ui-widget-content {
+	 		padding: 0;
+	 	}
+
+	 	.price_slider_wrapper .ui-widget-content {
+	 		background-color: #ccc;
+	 	}
+
+	 	.ui-slider .ui-slider-range,
+	 	.ui-slider .ui-slider-handle {
+	 		@extend %bg-primary;
+	 	}
+
+	 	.ui-slider .ui-slider-handle {
+	 		border-width: 0;
+	 	}
+	}
+
+	.widget_recent_reviews .product_list_widget li a{
+		@extend %color-title;
+		@extend %font-title;
+
+		&:hover {
+			@extend %color-primary;
+		}
+	}
+}

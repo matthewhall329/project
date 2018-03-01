@@ -1,0 +1,183 @@
+.wil-team__list,
+.wil-team {
+	@extend %clearfix;
+}
+
+.wil-team {
+	position: relative;
+	background-color: #212122;
+}
+
+.wil-team-preview {
+
+	@include pfs('padding-top, padding-bottom', (
+		480px: 40px,
+		1400px: 100px
+	));
+
+	@include pfs('padding-left, padding-right', (
+		480px: 15px,
+		1400px: 50px
+	))
+	
+	@media('min-width: 480px') {
+		width: 50%;
+		float: left;
+	}
+}
+
+.wil-team-list {
+
+	@media (min-width: 480px) {
+		position: absolute;
+		width: 50%;
+		right: 0;
+		top: 0;
+		height: 100%;
+		overflow: hidden;
+	}
+}
+
+.wil-team__preview {
+	text-align: center;
+
+	hr {
+		width: 45px;
+		margin-left: auto;
+		margin-right: auto;
+		@extend %border-primary;
+		@include pfs('margin-top, margin-bottom', (
+			768px: 15px,
+			1400px: 30px
+		))
+	}
+}
+
+.wil-team__preview-avatar {
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto 40px auto;
+	margin-left: auto;
+	margin-right: auto;
+	@include pfs('margin-bottom', (
+		768px: 20px,
+		1400px: 40px
+	));
+
+	@include pfs('max-width', (
+		768px: 150px,
+		1400px: 400px
+	));
+
+	&:before {
+		content: '';
+		display: block;
+		padding-top: 100%;
+	}
+
+	img {
+		display: none !important;
+	}
+}
+
+.wil-team__preview-name {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: normal;
+	text-transform: capitalize;
+	@extend %color-white;
+	@include pfs('font-size', (
+		768px: 20px,
+		1400px: 30px
+	))
+}
+
+.wil-team__preview-work {
+	@extend %color-white;
+	@include pfs('font-size', (
+		768px: 14px,
+		1400px: 18px
+	))
+}
+
+.wil-team__preview-social {
+	@extend %color-white;
+
+	a {
+		width: 40px;
+		line-height: 40px;
+		font-size: 20px;
+		text-align: center;
+		display: inline-block;
+		border-radius: 50%;
+
+		@include pfs('width, line-height', (
+			768px: 30px,
+			1400px: 40px
+		));
+
+		@include pfs('font-size', (
+			768px: 16px,
+			1400px: 20px
+		))
+
+		&:hover {
+			@extend %color-white;
+			@extend %bg-primary;
+		}
+	}
+}
+
+.wil-team__item {
+	float: left;
+	width: 50%;
+	position: relative;
+
+	&:hover {
+
+		.wil-team__item-view,
+		.wil-team__item-avatar:before {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+.wil-team__item-view {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+	transform: translate(-50%, -50%);
+	@extend %color-primary;
+	@include pfs('font-size', (
+		768px: 20px,
+		1400px: 48px
+	));
+
+}
+
+.wil-team__item-avatar {
+	padding-top: 100%;
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		position: absolute;
+		z-index: 0;
+		background-color: rgba(#000, 0.6);
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease;
+	}
+
+	img {
+		display: none;
+	}
+}

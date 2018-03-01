@@ -1,0 +1,18 @@
+{
+    "listing_location": {
+        "china": ["shanghai"],
+        "india": ["maharashtra"],
+        "japan": ["nagawa"],
+        "south-korea": ["seoul"],
+        "thailand": ["bangkok"],
+        "usa": ["california", "alaska", "chicago", "maine", "minnesota", "georgia", "hawaii", "florida", "texas", "washington", "wisconsin"],
+        "vietnam": ["ninh-binh", "lam-dong", "quang-binh"]
+    },
+	"listing_cat": {
+        "beauty-health": ["skin-care", "spa-salon", "yoga"],
+        "entertainment": ["art-design", "movie-theater", "museum", "music"],
+        "events": ["conference", "festival"],
+        "food-drink": ["breakfast", "club-bar", "coffee", "dinner", "lunch", "restaurant", "winery"],
+        "travel-hotel": ["destinations", "hotel"]
+    }
+}

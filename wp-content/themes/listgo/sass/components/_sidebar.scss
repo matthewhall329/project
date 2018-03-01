@@ -1,0 +1,148 @@
+.sidebar,
+.sidebar-background,
+.sidebar-background--light {
+	position: relative;
+	z-index: 0;
+	max-width: 600px;
+	margin: auto;
+}
+
+.sidebar-background,
+.sidebar-background--light {
+	
+	.widget {
+		margin-bottom: 30px;
+		background-color: $color-gray-2;
+		padding: 0 20px 20px 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	.widget_map {
+		
+		.widget_title {
+			margin-bottom: 0;
+		}
+
+		.widget-map {
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+	}
+
+	.widget_title {
+		font-size: 18px;
+		margin: 0 -20px;
+		margin-bottom: 20px;
+		padding-right: 10px;
+		padding-left: 20px;
+		line-height: 58px;
+		border-bottom: 1px solid $color-gray-4;
+		overflow: hidden;
+		@extend %ellipsis;
+
+		i {
+			display: block;
+			float: left;
+			padding-right: 15px;
+			font-size: 24px;
+			text-align: center;
+			margin-right: 20px;
+			line-height: inherit;
+			border-right: 1px solid $color-gray-4;
+			@extend %color-primary;
+		}
+	}
+
+	.widget_listings  ul {
+		padding-top: 20px;
+		padding-bottom: 10px;
+
+		li:last-child {
+			border-bottom-width: 0;
+		}
+	}
+
+	.widget_photo .popup-gallery {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.widget_author,
+	.widget_map,
+	.widget_author_gallery,
+	.widget_author_calendar,
+	.widget_listings {
+		padding-bottom: 0;
+	}
+
+	.widget_search .search-form {
+		position: relative;
+	}
+	.widget_search .search-form,
+	.textwidget {
+		padding-top: 20px;
+	}
+
+	.widget_author-gallery {
+		padding-top: 0;
+	}
+
+	.widget_archive select,
+	.widget_categories select,
+	#wp-calendar {
+		margin-top: 20px;
+	}
+
+	.widget_title ~ {
+	 	select,
+		#wp-calendar {
+			margin-top: 0;
+		}
+
+		ul {
+			margin-top: -15px;
+		}
+	}
+
+	.widget_media_image {
+		padding: 0;
+		background-color: transparent;
+	}
+
+	.pi_subscribe .pi-subscribe { 
+		font-size: 0;
+		padding: 0 20px;
+
+		i {
+			line-height: 46px;
+		}
+	}
+
+}
+
+.sidebar-background--light {
+	
+	.widget {
+		background-color: #fff;
+	}
+
+	.widget_author .account-subscribe > * {
+		border-right-color: $color-gray-2;
+	}
+
+	.widget_author .account-subscribe,
+	.widget_author .account-subscribe .listgo-btn {
+		border-top-color: $color-gray-2;
+	}
+
+	.widget_author__content {
+		border-top: 10px solid $color-gray-2;
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

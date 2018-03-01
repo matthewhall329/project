@@ -1,0 +1,24 @@
+.widget_calendar {
+	table {
+		width: 100%;
+		table-layout: fixed;
+
+		caption {
+			text-align: center;
+		    font-weight: 700;
+		    text-transform: uppercase;
+			@extend %font-title;
+			@extend %color-title;
+		}
+
+		td, th {
+			border: 1px solid $color-gray-4;
+			padding: 5px;
+			text-align: center;
+		}
+
+		a {
+			@extend %color-primary;
+		}
+	}
+}

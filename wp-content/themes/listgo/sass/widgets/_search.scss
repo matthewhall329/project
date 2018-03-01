@@ -1,0 +1,45 @@
+.widget_search,
+.widget_product_search {
+
+	label {
+		width: 100%;
+		margin-bottom: 0;
+		position: relative;
+		font-weight: normal;
+
+		&:before {
+			position: absolute;
+			top: 0px;
+			right: 15px;
+			content: '\f002';
+			font-family: 'FontAwesome';
+		}
+	}
+
+	.search-field {
+		border-color: #f1f1f1;
+	}
+
+	input[type="submit"] {
+		width: auto;
+		height: 48px;
+		line-height: 48px;
+		overflow: visible;
+		display: none;
+	}
+
+	.woocommerce-product-search {
+		padding-top: 20px;
+	}
+}
+
+.sidebar-background {
+	
+	.widget_search,
+	.widget_product_search {
+
+		.search-field {
+			border-color: #e2e2e2;
+		}
+	}
+}

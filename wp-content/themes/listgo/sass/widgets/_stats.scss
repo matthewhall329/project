@@ -1,0 +1,38 @@
+.widget-stats__logo {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	img {
+		max-width: none;
+		width: auto;
+		max-height: 22px;
+	}
+}
+.widget_title {
+	~ .widget-stats__body {
+		.widget-stats__logo {
+			margin-top: 0;
+		}
+	}
+}
+.stats-item {
+	padding: 8px 0;
+}
+.stats-item__title {
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 3px;
+}
+.stats-item__des {
+	
+}
+#footer {
+	.widget-stats__logo {
+		padding-top: 0;
+	}
+	.stats-item__title {
+		color: #dbdbdb;
+	}
+	.stats-item__des {
+		color: #9a9b9c;
+	}
+}

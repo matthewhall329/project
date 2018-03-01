@@ -1,0 +1,15 @@
+.role--empire {
+	color: #e57171;
+}
+
+.role--admin {
+	color: #5dc57b;
+}
+
+.role--user {
+	@extend %color-primary;
+}
+
+.is-author-page {
+	padding-top: 70px !important;
+}

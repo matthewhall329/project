@@ -1,0 +1,56 @@
+// Gallery
+.widget_author-gallery {
+	padding: 25px 0;
+
+	ul {
+		list-style: none;
+		margin-left: -5px;
+		margin-right: 5px;
+		margin: 0 -5px;
+		padding: 0;
+		@extend .clearfix;
+
+		li {
+			padding-left: 5px;
+			padding-right: 5px;
+			width: 25%;
+			float: left;
+		}
+
+		a {
+			display: block;
+			padding-top: 100%;
+			border-radius: 50%;
+
+			&:before {
+				content: '';
+				background-color: rgba(#000, 0.6);
+				border-radius: 50%;
+				@extend %transition-all-03s-ease;
+				opacity: 0;
+				visibility: hidden;
+				@extend %absolute-box;
+			}
+
+			&:hover:before{
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		.count {
+			font-size: 24px;
+			@extend %color-white;
+			@extend %centered;	
+		}
+
+		img {
+			display: none;
+		}
+
+		.author__gallery-plus a:before {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

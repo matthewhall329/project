@@ -1,0 +1,44 @@
+[data-tooltip] {
+	position: relative;
+	display: inline-block;
+	transition: all .3s ease;
+	&:before {
+		content: attr(data-tooltip);
+		display: block;
+		position: absolute;
+		white-space: nowrap;
+		background-color: $color-title;
+		color: #fff;
+		top: -6px;
+		border-radius: 2px;
+		line-height: 25px;
+		padding: 0 18px;
+		font-size: 12px;
+		font-family: $font-title;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		border: 5px solid transparent;
+		border-top-color: $color-title;
+		width: 0;
+		height: 0;
+		top: 4px;
+	}
+	&:before,
+	&:after {
+		left: 50%;
+		transform: translate(-50%, -100%);
+		transition: inherit;
+		z-index: 20;
+		@extend %hidden-opacity;
+	}
+	
+	&:hover {
+		
+		&:before,
+		&:after {
+			@extend %visible-opacity;
+		}
+	}
+}

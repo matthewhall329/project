@@ -1,0 +1,13 @@
+.textblock {
+	margin-bottom: 30px;
+}
+
+.textblock__title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 30px;
+
+	~ .textblock__content {
+		margin-top: 15px;
+	} 
+}

@@ -1,0 +1,125 @@
+.nav-middle {
+
+	.owl-next, .owl-prev {
+		z-index: 2;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		text-align: center;
+		line-height: 32px;
+		font-size: 20px;
+		z-index: 2;
+		border: 1px solid;
+		@extend %transition-all-03s-ease;
+		@extend %color-title;
+		@extend %centered-vertical;
+
+		&:hover {
+			@extend %color-primary;
+		}
+	}
+
+	.owl-prev {
+		left: 20px;
+	}
+
+	.owl-next {
+		right: 20px;
+	}
+}
+
+.nav-bottom {
+
+	.owl-nav {
+		text-align: center;
+		margin-top: 45px;
+
+		> div {
+			margin-right: 7px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.owl-next, .owl-prev {
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		text-align: center;
+		line-height: 32px;
+		font-size: 20px;
+		z-index: 2;
+		border: 1px solid;
+		@extend %transition-all-03s-ease;
+		@extend %color-title;
+
+		&.disabled {
+			opacity: 0.2;
+		}
+
+		&:hover {
+			@extend %color-primary;
+		}
+	}
+}
+
+.testimonials-carousel {
+	
+	.owl-prev, .owl-next {
+		@extend %color-white;
+	}	
+}
+
+.events-carousel.nav-middle {
+
+	.owl-prev {
+		left: -100px;
+	}
+
+	.owl-next {
+		right: -100px;
+	}
+}
+
+.owl-carousel .owl-item img {
+	transform-style: flat;
+}
+
+.owl-carousel {
+	height: 0;
+	overflow: hidden;
+
+	.owl-next, .owl-prev {
+		
+		&.disabled {
+			opacity: 0.2;
+			pointer-events: auto;
+		}
+	}
+
+	> * {
+		opacity: 0;
+	}
+	
+	&.owl-loaded {
+		height: auto;
+		overflow: visible;
+
+		> * {
+			opacity: 1;
+		}
+	}
+}
+
+.owl-carousel {
+	
+	.post__grid {
+		margin-bottom: 0;
+	}
+}
+
+.account-page-add-listing .owl-carousel .owl-stage-outer {
+    overflow: visible;
+}

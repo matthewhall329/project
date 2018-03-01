@@ -1,0 +1,172 @@
+.tab {
+	margin-bottom: 20px;
+
+	.tab__nav {
+		padding: 0;
+		margin: 0;
+		@extend .clearfix;
+
+		li {
+			list-style: none;
+			@extend %font-title;
+
+			a {
+				text-decoration: none;
+				position: relative;
+				user-select: none;
+				transition-property: all;
+			}
+
+			&.active {
+
+				a {
+					@extend %color-title;
+				}
+			}
+
+			&:hover {
+
+				a {
+					@extend %color-title;
+				}
+			}
+		}
+	}
+
+	.tab__panel {
+		padding:0 0 0 0;
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+}
+
+.tab.tab--1 {
+
+	.tab__nav {
+		margin-bottom: 20px;
+
+		li {
+			display: inline-block;
+			font-size: 20px;
+			font-weight: 600;
+			margin-right: 18px;
+			@extend %color-title;
+			@extend %font-title;
+
+			&:after {
+				content: '|';
+				margin-left: 18px;
+			}
+
+			a {
+
+				&:hover::after {
+					@extend %color-title;
+				}
+			}
+
+			&:last-child:after {
+				content: none;
+			}
+
+			&.active a {
+				@extend %color-primary;
+			}
+		}
+	}
+}
+
+.tab--2 {
+
+	.tab__nav { 
+		height: 35px;
+		overflow-y: hidden;
+		overflow-x: auto;
+		white-space: nowrap; 
+		margin-bottom: 30px;
+		position: relative;
+		-webkit-overflow-scrolling: touch;
+		@extend .clearfix;
+
+		&:before {
+			content:'';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: block;
+			border-bottom: 2px solid $color-gray-4;
+		}
+
+		li {
+			margin-bottom: 0;
+			font-weight: 600;
+			font-size: 13px;
+			margin-right: 15px;
+			position: relative;
+			display: inline-block;
+			border-bottom: 2px solid $color-gray-4;
+			@extend %color-title;
+			@extend %font-title;
+
+			a {
+				display: block;
+				padding: 0 0 10px 0;
+			}
+
+			&.active {
+				@extend %color-primary;
+				@extend %border-bottom-primary;
+			}
+		}
+
+		@media (min-width: 768px) {
+			li {
+				font-size: 14px;
+				margin-right: 0;
+				a {
+					display: block;
+					padding: 0 16px 10px 16px;
+				}
+			}
+		}
+
+		@media (min-width: 1200px) {
+
+			li {
+				font-size: 16px;
+			}
+		}
+
+	}
+}
+
+@media (max-width: 600px) {
+
+	.tab--2 .tab__nav { 
+		overflow-x: auto;
+		white-space: nowrap;
+
+		li {
+			float: none;
+			display: inline-block;
+		}
+	}
+}
+
+// reCAPTCHA CSS
+#wiloke-popup-signup-form {
+	.g-recaptcha > div {
+		margin: 24px auto 38px auto;
+	}
+	.form-item.desc {
+		text-align: center;
+		a {
+			color: $color-primary;
+			text-decoration: underline;
+		}
+	}
+}

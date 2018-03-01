@@ -1,0 +1,29 @@
+.wo_blog {
+	padding-top: 0;
+
+	.grid {
+		margin-bottom: 10px;
+
+		@media (min-width: 768px) {
+			&[data-col-sm="2"] {
+				.grid-item:nth-child(2n+1) {
+					clear: left;
+				}
+			}
+		}
+
+		@media (min-width: 1200px) {
+
+			&[data-col-lg="3"] {
+				
+				.grid-item:nth-child(2n+1) {
+					clear: none;
+				}
+
+				.grid-item:nth-child(3n+1) {
+					clear: left;
+				}
+			}
+		}
+	}
+}

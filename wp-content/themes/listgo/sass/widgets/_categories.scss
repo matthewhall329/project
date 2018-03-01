@@ -1,0 +1,48 @@
+.widget_categories,
+.widget_archive,
+.widget_pages,
+.widget_meta,
+.widget_nav_menu,
+.widget_product_categories,
+.widget_layered_nav {
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		position: relative;
+
+		span {
+			margin-left: 5px;
+			color: #9a9b9c;
+		}
+
+		&:last-child a {
+			border-bottom: 0;
+		}
+
+		.count {
+			position: absolute;
+			right: 0;
+			top: 10px;
+		}
+	}
+
+	a {
+		display: block;
+		border-bottom: 1px solid #e9ecef;
+		padding: 10px 0;
+	}
+
+	.sub-menu,
+	.children {
+		padding-left: 20px;
+
+		> li > a:last-child {
+			border-bottom: 1px solid #e9ecef;
+		}
+	}
+}

@@ -1,0 +1,81 @@
+/*
+ * Theme Name: ListGo
+ * Theme URI: https://listgo.wiloke.com/
+ * Author: wiloke
+ * Author URI: https://wiloke.com
+ * Description: Listing WordPress Theme
+ * Version: 1.6.4.0
+ * Text Domain: listgo
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+ */
+
+.listing-single__sidebar .listgo-single-listing-sidebar{
+    max-width: none !important;
+}
+
+.user__menu{
+    z-index: 9999 !important;
+}
+
+.fluid-width-video-wrapper{
+    padding-top: 0 !important;
+}
+
+.old-style .acf-fields > .acf-field{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.old-style  .acf-basic-uploader {
+    display: block !important;
+    padding: 10px !important;
+    border: 1px solid #b4b4b4 !important;
+}
+
+.old-style  .acf-basic-uploader input[type="file"] {
+    height: auto !important;
+    border: 0 !important;
+    line-height: 1em !important;
+}
+
+.add-listing-group .postbox > .hndle{
+    padding-left: 15px !important;
+    margin-top: -10px !important;
+}
+
+.widget_author__social .fa-medium{
+    background-color: #02b875;
+}
+.input-icon.fa-medium{
+    color: #02b875;
+}
+
+.widget_author__social .fa-tripadvisor{
+    background-color: #44213d;
+}
+
+.input-icon.fa-tripadvisor{
+   color: #44213d;
+}
+
+.widget_author__social .fa-wikipedia-w{
+    background-color: #FF0000;
+}
+
+.input-icon.fa-tripadvisor{
+    color: #FF0000;
+}
+
+.utility__media{
+    display: block !important;
+}
+
+.listing-single__tab{
+    border-bottom: none;
+}
+
+.listgo-map__singlebox input#s_search.ui-autocomplete-input {
+    max-width: 285px !important;
+}

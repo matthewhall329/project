@@ -1,0 +1,62 @@
+.mailchimp__content {
+	p {
+		font-size: 16px;
+		font-style: italic;
+	}
+}
+
+.pi_subscribe {
+	position: relative;
+	margin-top: 30px;
+
+	.pi-subscribe {
+		right: 0;
+		top: 0;
+		padding: 0 30px;
+		position: absolute;
+		line-height: 48px;
+		height: 48px;
+		font-weight: 600;
+		vertical-align: top;
+		border-width: 0;
+		font-size: 16px;
+		@extend %color-title;
+		@extend %font-title;
+		@extend %bg-primary;
+
+		i {
+			font-size: 18px;
+		}
+	}
+
+	.message {
+		margin-bottom: 0;
+		font-size: 12px;
+
+		&.alert-error {
+			margin-top: 3px;
+			@extend %color-primary;
+		}
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.footer-style3 {
+		.pi_subscribe {
+			margin-bottom: 70px;
+		}
+		.pi_subscribe .pi-subscribe {
+			top: 47px;
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.pi_subscribe .pi-subscribe {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+

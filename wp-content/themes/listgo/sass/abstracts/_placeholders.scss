@@ -1,0 +1,89 @@
+// Placeholder Font
+%font-title {
+	font-family: $font-title;
+}
+
+%font-base {
+	font-family: $font-base;
+}
+
+%font-subtitle {
+	font-family: $font-subtitle;
+}
+
+// Placeholder Text Ellipsis
+%ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+%unellipsis {
+	text-overflow: initial;
+	overflow: initial;
+	white-space: initial;
+}
+
+// Placeholder Absolute Box
+%absolute-box {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+
+%absolute-box-height {
+	position: absolute;
+	top: 0; bottom: 0;
+}
+
+%absolute-box-width {
+	position: absolute;
+	right: 0; left: 0;
+}
+
+// Placeholder Centered Element
+%centered {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+%centered-vertical {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+%centered-hoziontal {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+%hidden-opacity {
+	opacity: 0;
+	visibility: hidden;
+}
+
+%visible-opacity {
+	opacity: 1;
+	visibility: visible;
+}
+
+%transition-all-03s-ease {
+	transition: all 0.3s ease;
+}
+
+// Placeholder Carousel Loader
+%loader-carousel {
+	height: 0px;
+	position: relative;
+	overflow: hidden;
+
+	&.owl-loaded {
+		height: auto;
+	}
+}
+
+%clearfix {
+	@extend .clearfix;
+}

@@ -1,0 +1,171 @@
+.wiloke-addlisting-warning {
+	display: flex;
+	height: 50vh;
+	align-items: center;
+	width: 100%;
+
+	.wil-alert {
+		margin-bottom: 0;
+	}
+}
+
+.wil-alert {
+	position: relative;
+	padding: 15px 50px 15px 15px;
+	margin-bottom: 25px;
+	border-width: 1px;
+	border-style: solid;
+	min-height: 85px;
+	@extend %clearfix;
+
+	@media (min-width: 480px) {
+		padding: 20px 70px 20px 20px;
+	}
+}
+
+.wil-alert-has-icon {
+	padding-left: 90px;
+
+	.wil-alert-icon {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
+		line-height: 1;
+	}
+
+	@media (min-width: 480px) {
+		padding-left: 120px;
+
+		.wil-alert-icon {
+			width: 90px;
+			font-size: 40px;
+		}
+	}
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+
+    .wil-alert-icon {
+    	background-color: #b8daff;
+    }
+}
+
+.alert-secondary {
+    color: #464a4e;
+    background-color: #e7e8ea;
+    border-color: #dddfe2;
+
+    .wil-alert-icon {
+    	background-color: #dddfe2;
+    }
+}
+
+.alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+
+    .wil-alert-icon {
+    	background-color: #fdfdfe;
+    }
+}
+
+.alert-success {
+
+	.wil-alert-icon {
+    	background-color: #d6e9c6;
+    }
+}
+
+.alert-danger {
+
+	.wil-alert-icon {
+    	background-color: #ebccd1;
+    }
+}
+
+.alert-warning {
+
+	.wil-alert-icon {
+    	background-color: #faebcc;
+    }
+}
+
+.alert-info	{
+
+	.wil-alert-icon {
+    	background-color: #bce8f1;
+    }
+}
+
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+
+    .wil-alert-icon {
+    	background-color: #c6c8ca;
+    }
+}
+
+.wil-alert-message {
+	margin-bottom: 0;
+	color: #5a5b5c;
+
+	a {
+		font-weight: 600;
+		text-decoration: underline;
+		@extend %font-title;
+	}
+}
+
+
+.wil-alert-remove {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	margin: auto;
+	cursor: pointer;
+
+	&:before, &:after {
+		content: '';
+		height: 0;
+		width: 20px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		border-top:2px solid #212122;
+		transform: rotate(45deg);
+	}
+
+	&:after {
+		transform: rotate(-45deg);
+	}
+
+	@media (min-width: 480px) {
+		right: 20px;
+	}
+}
+
+.wil-alert-title {
+	font-size: 16px;
+	display: block;
+	@extend %color-title;
+
+	@media (min-width: 480px) {
+		font-size: 18px;
+	}
+}

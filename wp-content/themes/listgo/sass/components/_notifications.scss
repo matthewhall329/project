@@ -1,0 +1,166 @@
+.notifications {
+	position: relative;
+	min-height: 100px;
+	@extend %bg-white;
+}
+
+.notifications__label {
+	font-size: 18px;
+	margin: 0;
+	padding: 10px 15px;
+
+	.count {
+		font-size: 12px;
+		padding:0 7px;
+		background-color: #eeeeee;
+		border-radius: 20px;
+		line-height: 17px;
+		display: inline-block;
+		margin-left: 5px;
+		@extend %color-base;
+	}
+}
+
+.notifications__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	&.loading {
+		overflow-y: hidden !important;
+	}
+
+	li {
+		border-top: 1px solid #eeeeee;
+		position: relative;
+		@extend %transition-all-03s-ease;
+
+		&:hover {
+			background-color: $color-gray-2;
+
+			.notifications__remove {
+				@extend %visible-opacity;
+			}
+		}
+
+		&.active {
+			background-color: #eeeeee;
+		}
+
+		&:first-child {
+			border-top: 0;
+		}
+	}
+
+	.notifications__avatar {
+		width: 52px;
+		height: 52px;
+		border-radius: 50%;
+		float: left;
+		margin-right: 10px;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+
+		.widget_author__avatar-placeholder {
+			font-size: 22px;
+		}
+	}
+
+	.overflow_hidden {
+		overflow: hidden;
+	}
+
+	.notifications__title {
+		margin-bottom: 0;
+		font-size: 13px;
+		line-height: 1.5em;
+
+		strong {
+			color: #212122;
+			// font-weight: 600;
+		}
+	}
+
+	.notifications__thumb {
+		float: right;
+		margin-left: 10px;
+		width: 40px;
+	}
+
+	.notifications__date {
+		font-size: 13px;
+		color: #9a9b9c;
+
+		i {
+			@extend %color-primary;
+		}
+	}
+
+	.notifications__remove {
+		position: absolute;
+		right: 15px;
+		top: 14px;
+		cursor: pointer;
+		@extend %hidden-opacity;
+		@extend %transition-all-03s-ease;
+
+		&:hover {
+			@extend %color-primary;
+		}
+	}
+
+	a {
+		display: block;
+		padding: 15px 0 15px 15px;
+		margin-right: 30px;
+		overflow: hidden;
+
+		&:hover {
+			color: inherit;
+		}
+	}
+}
+
+.notifications__more {
+	border-top: 1px solid #eee;
+
+	a {
+		display: block;
+		text-align: center;
+		font-weight: 600;
+		background-color: $color-gray-2;
+		padding: 10px 15px;
+		@extend %color-primary;
+		@extend %font-title;
+
+		&:hover {
+			@extend %bg-primary;
+			@extend %color-white;
+		}
+	}
+}
+
+.fb_reset>div {
+	right: 70pt !important;
+}
+
+@media (max-width: 768px) {
+	
+	.fb_reset>div {
+		right: 55pt !important;
+		bottom: 10pt !important;
+	}
+
+}
+
+
+@media (max-width: 320px) {
+	
+	.notifications__list .notifications__thumb {
+		display: none;
+	}
+}

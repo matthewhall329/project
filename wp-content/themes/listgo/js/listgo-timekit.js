@@ -1,0 +1,1 @@
+!function(){"use strict";!function(a){var i=jQuery(".listgo-timekit-bookingjs");i.length&&i.each(function(){var i=new TimekitBooking,t=a(this).data("timekit");i.init({app:t.app,email:t.email,apiToken:t.apiToken,calendar:t.calendar,name:t.name,avatar:t.avatar,targetEl:".listgo-timekit-bookingjs",bookingGraph:"instant"})})}(jQuery)}();

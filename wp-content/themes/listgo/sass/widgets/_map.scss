@@ -1,0 +1,17 @@
+.widget-map {
+	height: 300px;
+}
+
+.widgetmap {
+
+	p {
+		padding: 20px 0;
+		border-top: 1px solid #f1f1f1;
+		margin-bottom: 0;
+
+		a {
+			text-decoration: underline;
+			@extend %color-primary;
+		}
+	}
+}

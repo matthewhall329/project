@@ -1,0 +1,199 @@
+.wpb_widgetised_column,
+.sidebar {
+	
+	.widget {
+		margin-bottom: 45px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.widget_title {
+		font-size: 16px;
+		border-left-width: 2px;
+		border-left-style: solid;
+		padding-left: 15px;
+		margin-bottom: 30px;
+		margin-top: 0;
+		@extend %border-left-primary;
+
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	.pi_subscribe .pi-subscribe { 
+		font-size: 0;
+		padding: 0 20px;
+
+		i {
+			line-height: 46px;
+		}
+	}
+
+}
+.footer__widget {
+	position: relative;
+	color: #afafaf;
+
+	.widget_title {
+		margin-top: 0;
+		margin-bottom: 15px;
+		@extend %color-primary;
+
+		@include pfs('font-size', (
+			768px: 24px,
+			1200px: 34px
+		));
+	}
+
+	.widget {
+		margin-bottom: 50px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		input[type="search"],
+		input[type="text"],
+		input[type="url"],
+		input[type="number"],
+		input[type="password"],
+		input[type="email"],
+		input[type="file"],
+		input[type="tel"],
+		select,
+		textarea, {
+			@extend %color-white;
+		}
+
+		select option {
+			@extend %color-base;
+		}
+	}
+
+	input[type="search"],
+	input[type="text"],
+	input[type="url"],
+	input[type="number"],
+	input[type="password"],
+	input[type="email"],
+	input[type="file"],
+	input[type="tel"],
+	select,
+	textarea {
+		border-color: rgba(#fff, 0.1);
+	}
+
+	.widget ul li,
+	.widget ul li a,
+	.widget_categories .children > li > a:last-child,
+	.widget_nav_menu .sub-menu > li > a:last-child,
+	.widget_pages .children > li > a:last-child {
+		border-bottom: 0;
+	}
+	.widget_categories a,
+	.widget_archive a,
+	.widget_pages a,
+	.widget_meta a,
+	.widget_nav_menu a,
+	.widget_product_categories a,
+	.widget_layered_nav a {
+		padding: 5px 0;
+	}
+
+	.mailchimp__content {
+		p {
+			color: #b3b3b5;
+		}
+	}
+
+	.pi_subscribe {
+		
+		.pi-subscribe-email {
+			color: #b3b3b5;
+			border-color: rgba(255,255,255,0.3);
+		}
+	}
+
+	.twitter-slider .owl-nav > div {
+		@extend %color-white;		
+	}
+
+	.widget_calendar table caption {
+		color: inherit;
+	}
+
+	.widget a {
+		color: inherit;
+
+		&:hover {
+			@extend %color-primary;
+		}
+	}
+}
+
+.wiloke_price_segment {
+	.active {
+		@extend %color-primary;
+	}
+
+	.deactive {
+		opacity: 0.2;
+	}
+}
+
+.wiloke_price-range {
+	font-weight: 600;
+	@extend %color-title;
+
+	span {
+	    font-size: 16px;
+	    letter-spacing: 0.05em;
+	    font-weight: 700;
+	    margin-left: 5px;
+	}
+
+	.wiloke_price-range__price {
+		@extend %color-primary;
+	}
+
+	.wiloke_price-range__sale {
+	    float: right;
+    	color: #e72f33;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.sidebar, .sidebar-background {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.footer__widget {
+		
+		.widget_title {
+			margin-top: 0;
+			margin-bottom: 15px;
+			font-size: 24px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+
+	.footer__widget {
+		
+		.widget_title {
+			font-size: 20px;
+		}
+	}
+}
+
+.footer__widget .widget a.btn {
+	color: initial;
+}

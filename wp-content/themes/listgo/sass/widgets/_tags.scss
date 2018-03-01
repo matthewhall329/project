@@ -1,0 +1,25 @@
+.tagcloud {
+
+	a {
+		margin-bottom: 3px;
+		display: inline-block;
+		text-decoration: underline;
+		font-size: 14px !important;
+
+		&:after {
+			content: ',';
+			margin-right: 2px;
+		}
+
+		&:last-child::after {
+			content: none;
+		}
+	}
+}
+
+.sidebar-background {
+	
+	.tagcloud {
+		padding: 25px 0;
+	}
+}

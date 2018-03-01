@@ -1,0 +1,41 @@
+.aboutwidget {
+	text-align: center;
+}
+
+.aboutwidget__avatar {
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 20px;
+
+	img {
+		width: 100%;
+		border-radius: inherit;
+	}
+}
+
+.aboutwidget__title {
+	font-size: 24px;
+	margin-top: 0;
+	font-weight: normal;
+}
+
+.aboutwidget__position {
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.aboutwidget__divider {
+	width: 45px;
+	height: 1px;
+	margin: 0 auto 25px auto;
+	@extend %bg-primary;
+}
+
+.aboutwidget__social {
+	font-size: 16px;
+
+	a {
+		margin: 0 10px;
+	}
+}

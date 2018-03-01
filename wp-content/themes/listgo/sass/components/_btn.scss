@@ -1,0 +1,84 @@
+.listgo-btn {
+    display: inline-block;
+    min-width: 196px;
+    background-color: #eee;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
+    padding: 12px 15px 13px;
+    text-align: center;
+    border-width: 0;
+    cursor: pointer;
+    border-radius: 0;
+    position: relative;
+    @extend %color-title;
+    @extend %font-title;
+
+    &.btn-black {
+        @extend %color-white;
+        @extend %bg-title;
+    }
+
+    &.btn-primary {
+        @extend %bg-primary;
+
+        &:hover {
+            @extend %color-primary;
+            @extend %bg-title;
+        }
+
+        &:focus, &:active {
+            @extend %color-primary;
+            @extend %bg-title;
+        }
+    }
+
+    &.btn-shadow {
+        box-shadow: 0px 6px 20px 0px rgba($color-primary, 0.4);
+    }
+
+    &:hover {
+        @extend %color-primary;
+        @extend %bg-title;
+    }
+
+    i {
+        margin-right: 3px;
+    }
+}
+
+.listgo-btn-icon {
+    display: inline-block;
+    width: 48px;
+    line-height: 48px;
+    background-color: #eee;
+    text-align: center;
+
+    i {
+        @extend %color-base;
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    &:hover {
+        background-color: #000;
+    }
+}
+
+.listgo-btn--full {
+    width: 100%;
+}
+
+.listgo-btn--sm {
+    font-size: 14px;
+    min-width: auto;
+    padding: 7px 25px 8px;
+    font-weight: 600;
+}
+
+.listgo-btn--round {
+    border-radius: 50px;
+}
+.listgo-btn--block {
+    width: 100%;
+}

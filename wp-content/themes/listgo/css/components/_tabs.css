@@ -1,0 +1,111 @@
+.tab {
+  margin-bottom: 20px;
+}
+
+.tab .tab__nav {
+  padding: 0;
+  margin: 0;
+}
+
+.tab .tab__nav li {
+  list-style: none;
+}
+
+.tab .tab__nav li a {
+  text-decoration: none;
+  position: relative;
+  user-select: none;
+  transition-property: all;
+}
+
+.tab .tab__panel {
+  padding: 0 0 0 0;
+  display: none;
+}
+
+.tab .tab__panel.active {
+  display: block;
+}
+
+.tab.tab--1 .tab__nav {
+  margin-bottom: 20px;
+}
+
+.tab.tab--1 .tab__nav li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 18px;
+}
+
+.tab.tab--1 .tab__nav li:after {
+  content: '|';
+  margin-left: 18px;
+}
+
+.tab.tab--1 .tab__nav li:last-child:after {
+  content: none;
+}
+
+.tab--2 .tab__nav {
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab--2 .tab__nav:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.tab--2 .tab__nav li {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 15px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.tab--2 .tab__nav li a {
+  display: block;
+  padding: 0 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  .tab--2 .tab__nav li {
+    font-size: 14px;
+    margin-right: 0;
+  }
+  .tab--2 .tab__nav li a {
+    display: block;
+    padding: 0 20px 10px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tab--2 .tab__nav li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tab--2 .tab__nav {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .tab--2 .tab__nav li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+.g-recaptcha.form-item > div {
+  margin: 30px auto 40px auto;
+}

@@ -1,0 +1,109 @@
+// Placeholder Color
+%color-base {
+	color: $color-base;
+}
+
+%color-title {
+	color: $color-title;
+}
+
+%color-white {
+	color: $color-white;
+}
+
+%color-black {
+	color: $color-black;
+}
+
+%color-primary {
+	color: $color-primary;
+}
+%color-primary-important {
+	color: $color-primary !important;
+}
+
+%color-subprimary {
+	color: $color-subprimary;
+}
+
+// Placeholder Border
+%border-primary {
+	border-color: $color-primary;
+}
+
+%border-left-primary {
+	border-left-color: $color-primary;
+}
+
+%border-right-primary {
+	border-right-color: $color-primary;
+}
+
+%border-top-primary {
+	border-top-color: $color-primary;
+}
+
+%border-bottom-primary {
+	border-bottom-color: $color-primary;
+}
+
+%border-black {
+	border-color: $color-black;
+}
+
+%border-left-black {
+	border-left-color: $color-black;
+}
+
+%border-right-black {
+	border-right-color: $color-black;
+}
+
+%border-top-black {
+	border-top-color: $color-black;
+}
+
+%border-bottom-black {
+	border-bottom-color: $color-black;
+}
+
+%border-white {
+	border-color: $color-white;
+}
+
+%border-left-white {
+	border-left-color: $color-white;
+}
+
+%border-right-white {
+	border-right-color: $color-white;
+}
+
+%border-top-white {
+	border-top-color: $color-white;
+}
+
+%border-bottom-white {
+	border-bottom-color: $color-white;
+}
+
+// Placeholder Background Color
+%bg-primary {
+	background-color: $color-primary;
+}
+
+%bg-subprimary {
+	background-color: $color-subprimary;
+}
+
+%bg-title {
+	background-color: $color-title;
+}
+
+%bg-black {
+	background-color: $color-black;
+}
+
+%bg-white {
+	background-color: $color-white;
+}
